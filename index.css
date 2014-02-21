@@ -34,7 +34,7 @@ p {
 
 h1, h2 {
     color: white;
-    text-shadow: 2px 2px 2px black;
+    /* text-shadow: 2px 2px 2px black; */
 
     padding: 0 0 25px 0;
     margin: 0;
@@ -100,24 +100,33 @@ h2 {
     background-color: #67BCD1;
     background-color: #478DBF;
     color: #132531;
-    text-shadow: 1px 1px 1px #B4BAD8; 
+    background-color: white;
+    /* text-shadow: 1px 1px 1px #B4BAD8; */ 
 }
 
 #FAQ p, #FAQ h3 {
     padding-right: 50px;
 
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #555;
 }
 
 #sponsors {
-    background-color: #D3F1F0;
+    background-color: #fff;
     color: #132531;
 }
 
 #sponsors h2 {
-    color: #132531;
-    text-shadow: 2px 2px 2px #B3B3B3;
+    color: #333;
+    /* text-shadow: 2px 2px 2px #B3B3B3; */
 }
 
 footer {
-    background-color: #0A1A36;
+    background-color: #132531;
 }
+
+#FAQ h2 {
+  color: #333;
+}
+
