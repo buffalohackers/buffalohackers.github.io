@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>UB Hacking - University at Buffalo Collegiate Hackathon</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+	<link rel="stylesheet" href="./static/css/font-awesome.css" type="text/css" media="screen" />
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="./static/css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="./static/css/styles.css" type="text/css" media="screen" />
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="./static/js/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./static/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./static/js/base.js"></script>
+
+	<script src="./static/js/lazyload.js" type="text/javascript"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv7e3U86V4kQ_cL8Ao7BzriEtBIbauRMI&sensor=false ">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+      	var davishall = new google.maps.LatLng(43.003156, -78.787313);
+      	var center = new google.maps.LatLng(43.003611, -78.798795);
+        var mapOptions = {
+          center: center,
+          zoom: 15,
+          disableDefaultUI: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+
+        var ubhacking = new google.maps.Marker({
+        position: davishall,
+      	map: map,
+     
+  		});
+      }
+       
+    </script>
+
+    <link rel="shortcut icon" href="http://24.media.tumblr.com/avatar_d54dc78291e1_16.png" />
+
+</head>
+<body onload="initialize()">
+
+	<!-- div class="m-login">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="#"><i class="icon-signin m-navi-icon"></i> <strong>Login</strong></a></li>
+				<li class="middle"><a href="/register"><i class="icon-tasks m-navi-icon"></i> <strong>Register</strong></a></li>
+				<li class="last"><a href="/contact"><i class="icon-comments m-navi-icon"></i> <strong>Contact</strong></a></li>
+			</ul>
+		</div>
+	</div>
+</div>	 -->
+
+
+
+<div class="header">
+
+
+	
+	<div class="container">
+		<div class="row">			
+			<div class="threecol ">
+				<div class="logo"><a href="./index.html"><img src="./static/img/logo.png"></a>
+					<i class="icon-reorder" id="menu-icon"></i>
+				</div>
+				
+				
+			</div>
+			
+			<div class="ninecol last">
+				<div class="navigation">
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="http://blog.ubhacking.com" target="_blank">Blog</a></li>
+						<li><a href="./prizes.html">Winners</a></li>
+						<li><a href="./sponsors.html">Sponsors</a></li>
+						<li class="down"><a>People</a>
+							<ul class="dropdown">
+								<li><a href="./judges.html">Judges</a></li>
+								<li><a href="https://docs.google.com/spreadsheet/ccc?key=0AlyjNLEvWnoKdG81bUNHNkhEc2toZlBWN25ObFhKOHc&usp=sharing" target="_blank">Mentors</a></li>
+								<li><a href="./about.html#organizers">Organizers</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks" target="_blank">Hacks</a></li>
+						<li><a href="./rules.html">Rules</a></li>
+                        <li><a href="./schedule.html">Schedule</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+						<li><a href="./contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+
+	
+			<div class="threecol last">
+
+				
+
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="m-navigation">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/sponsors">Sponsors</a></li>
+				<li><a href="/judges">Judges</a></li>
+				<li><a href="/mentors">Mentors</a></li>
+				<li><a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks" target="_blank">Hacks</a></li>
+				<li><a href="/rules">Rules</a></li>
+				<li><a href="/schedule">Schedule</a></li>
+				<li><a href="/faq">FAQ</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="masthead content">
+	<div class="container">
+		<div class="row">
+			<div class="headtext">		
+					<div class="biglinks">
+
+							<div class="headtitle content_title" >< 
+								Sponsors
+									/></div>			
+					</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="maincontent">
+	<div class="container">
+		<div class="row">
+            <h1>Sponsors</h1>
+
+			<img src="./static/img/synacor.png" width="250" style="margin-top:30px;">
+            <p> Synacor is not your typical 9 to 5 workplace.  Our award winning culture doesn’t stop at flexible work hours and 25 cent vending machines.  Jeans and t-shirts are typical office attire, even for the executives.  Teamwork is an everyday occurrence, and is made easy with our new open workspaces.  Our leadership team understands that the best results come from collaboration, so we hire the best and brightest and then let them do what they do best: create cutting-edge products and provide exemplary customer service.  Synacor's headquarters is located along Buffalo's waterfront in the Erie Basin Marina. Taking a few minutes to enjoy the serenity of nature is as easy as walking 1,000 feet or so to the water. We even have a lakefront gazebo with wi-fi connection!  And if that’s not enough,  Synacor pays 100% of health care premiums for employees AND dependents, offers stock option participation, a healthy bonus potential and a very generous paid time off policy. Working with some of the largest cable, telecom and satellite providers, Synacor’s products and online services reach over 25 million high-speed Internet subscribers worldwide.  We are looking for great people to join our team and be given the freedom to do the work they were hired to do. </p>
+
+            <img src="./static/img/bloomberg.jpg" width="250" style="margin-top:30px;">
+            <p>Bloomberg is a technology company within the financial world, that gives influential decision makers a critical edge by connecting them to a dynamic network of information, people and ideas. With over 3,000 programmers, software development is the core of what we do. The company's strength - delivering data, news and analytics through innovative technology, quickly and accurately - is at the core of the Bloomberg Professional service (The Terminal), which provides real time financial information to more than 300,000 subscribers globally.</p>
+
+            <img src="./static/img/dowjones.png" width="250" style="margin-top:30px;">
+            <p>When you join Dow Jones, you become part of one of the most dynamic, creative and savvy news and information companies in the world. As a global leader in news and business intelligence, we're newswires, websites, newspapers, apps, newsletters, databases, magazines, radio and television--including some of the widest-read and most-respected brands, like Factiva, The Wall Street Journal, Barron's and SmartMoney. Our media inform the discussions and decisions that are vital to the world's commerce, while our databases make the business world more transparent. We continually develop technology to transform information into insight and insight into prosperity.  We enlighten and inspire audiences with authoritative, differentiated and trusted content.</p>
+
+            <img src="./static/img/infotech.jpg" width="250" style="margin-top:30px;">
+            <p>InfoTech Niagara is a member-driven association of technology businesses and organizations dedicated to the development of favorable policies, a robust public/private ecosystem, and infrastructure that supports the growth of the technology sector in Western New York.</p>
+			<P>InfoTech Niagara focuses on initiatives that:
+ 			<ul>
+	      	<li>Nurture early-stage and established technology initiatives and companies</li>
+			<li>Strengthen high-tech workforce and stop brain-drain from local educational institutions</li>
+	        <li>Promote state and local economic development</li>
+	        <li>Brand Western New York as a global technology center</li>
+	    	</ul></P>
+
+            <img src="http://assets3.sendgrid.com/mkt/assets/logos_brands/horizontal/PNG/logo_full_color_flat-a982ded4b0b159db49a552f2cf490439.png" width="250" style="margin-top:30px;">
+            <p>SendGrid is a simple email infrastructure in the cloud. Our tools allow developers to easily integrate email functionality into web their web applications. Through APIs or SMTP, you can send and receive email and retrieve detailed email statistics. Our users enjoy increased deliverability, on demand scalability, better understanding of email performance and custom, flexible integration.  As a web developers you'll never despise email again, if you use SendGrid instead of going it alone.</p>
+
+        <img src="./static/img/engineyard.png" width="250" style="margin-top:30px;">
+        <p>Engine Yard Cloud automates the configuration, deployment and management of applications on a customizable, secure and highly available platform.</p>
+
+        </div>
+
+
+			
+		</div>
+	</div>
+
+
+<div class="footer">
+    <div class="container">
+        <!-- Insert a row above this to have a Thanks to our Platinum Sponsor: --> 
+        <div class="row">
+        	<div class="twelvecol"></div>
+        </div>
+		<div class="row">
+			
+			<div class="sevencol">
+
+			
+			</div>
+			<div class="fourcol last m-hide">
+				<p class="head" style="text-align:right; margin-top:40px;">Thanks to our lead sponsor:</p>
+				<br>
+				<a href="http://www.synacor.com"><img src="./static/img/synacor.png" width="250"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="copyright">UB Hacking Copyright &copy; 2013 powered by Hackman</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+<!-- LOAD ME SOME JAVASCRIPTS -->
+   
+
+
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=315195628589675";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39031486-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body>
+</html>

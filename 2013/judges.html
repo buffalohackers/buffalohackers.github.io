@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>UB Hacking - University at Buffalo Collegiate Hackathon</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+	<link rel="stylesheet" href="./static/css/font-awesome.css" type="text/css" media="screen" />
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="./static/css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="./static/css/styles.css" type="text/css" media="screen" />
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="./static/js/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./static/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./static/js/base.js"></script>
+
+	<script src="./static/js/lazyload.js" type="text/javascript"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv7e3U86V4kQ_cL8Ao7BzriEtBIbauRMI&sensor=false ">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+      	var davishall = new google.maps.LatLng(43.003156, -78.787313);
+      	var center = new google.maps.LatLng(43.003611, -78.798795);
+        var mapOptions = {
+          center: center,
+          zoom: 15,
+          disableDefaultUI: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+
+        var ubhacking = new google.maps.Marker({
+        position: davishall,
+      	map: map,
+     
+  		});
+      }
+       
+    </script>
+
+    <link rel="shortcut icon" href="http://24.media.tumblr.com/avatar_d54dc78291e1_16.png" />
+
+</head>
+<body onload="initialize()">
+
+	<!-- div class="m-login">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="#"><i class="icon-signin m-navi-icon"></i> <strong>Login</strong></a></li>
+				<li class="middle"><a href="/register"><i class="icon-tasks m-navi-icon"></i> <strong>Register</strong></a></li>
+				<li class="last"><a href="/contact"><i class="icon-comments m-navi-icon"></i> <strong>Contact</strong></a></li>
+			</ul>
+		</div>
+	</div>
+</div>	 -->
+
+
+
+<div class="header">
+
+
+	
+	<div class="container">
+		<div class="row">			
+			<div class="threecol ">
+				<div class="logo"><a href="./index.html"><img src="./static/img/logo.png"></a>
+					<i class="icon-reorder" id="menu-icon"></i>
+				</div>
+				
+				
+			</div>
+			
+			<div class="ninecol last">
+				<div class="navigation">
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="http://blog.ubhacking.com" target="_blank">Blog</a></li>
+						<li><a href="./prizes.html">Winners</a></li>
+						<li><a href="./sponsors.html">Sponsors</a></li>
+						<li class="down"><a>People</a>
+							<ul class="dropdown">
+								<li><a href="./judges.html">Judges</a></li>
+								<li><a href="https://docs.google.com/spreadsheet/ccc?key=0AlyjNLEvWnoKdG81bUNHNkhEc2toZlBWN25ObFhKOHc&usp=sharing" target="_blank">Mentors</a></li>
+								<li><a href="./about.html#organizers">Organizers</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks" target="_blank">Hacks</a></li>
+						<li><a href="./rules.html">Rules</a></li>
+                        <li><a href="./schedule.html">Schedule</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+						<li><a href="./contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+
+	
+			<div class="threecol last">
+
+				
+
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="m-navigation">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/sponsors">Sponsors</a></li>
+				<li><a href="/judges">Judges</a></li>
+				<li><a href="/mentors">Mentors</a></li>
+				<li><a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks" target="_blank">Hacks</a></li>
+				<li><a href="/rules">Rules</a></li>
+				<li><a href="/schedule">Schedule</a></li>
+				<li><a href="/faq">FAQ</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="masthead content">
+	<div class="container">
+		<div class="row">
+			<div class="headtext">		
+					<div class="biglinks">
+
+							<div class="headtitle content_title" >< 
+								Judges
+									/></div>			
+					</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="maincontent">
+	<div class="container">
+		<div class="row">
+            <h1>Judges</h1>
+        </div>
+            <div class="judges">
+            	<div class="row">
+	            	<Div class="twocol">
+                    	<img src="./static/img/CollinsFun.jpeg" width="150">
+	            	</Div>
+	            	<div class="tencol last">
+	            		<h4>Michael Collins (<a href="http://www.linkedin.com/in/michaeltcollins" target="_blank">LinkedIn</a>) — Senior Director of Engineering, Synacor</h4>
+	            		<p>Software development professional with over 13 years managing local and remote teams sized from 10 to over 50 resources. Expertise with rapid growth and organizational structure as well as enterprise level architecture.</p>
+	            	</div>
+            	</div> 
+            	<div class="row">
+	            	<Div class="twocol">
+	            		<img src="https://pbs.twimg.com/profile_images/3445364024/b617c0fc14b1b2692b12dcf1138fbe58.png">
+	            	</Div>
+	            	<div class="tencol last">
+	            		<h4>Kunal Batra (<a href="http://www.twitter.com/kunal1732" target="_blank">@kunal732</a>) — Developer Evangelist, SendGrid</h4>
+	            		<p>Meet Kunal, developer evangelist at-large for SendGrid and home-grown New Jersey hacker. Kunal started off as a lead developer for Known Access, designing and developing a vendor access management system for the IT division of a Fortune 500 client. He continued on the co-found Social Roots, Inc. in 2011, a rating and reviewing social network for ethnic businesses. In 2012, Kunal founded General Machines, which developed their first product Deaftel – A phone service for the deaf that converts voice to text, and text back into voice over a phone call. Since this March, Kunal has been working as a developer evangelist at SendGrid, helping enable developers to get the tools and resources they need to make awesome, creative stuff.</p>
+	            	</div>
+            	</div>
+            	<div class="row">
+	            	<Div class="twocol">
+                    	<img src="./static/img/mylavarapus.jpg" width="150">
+	            	</Div>
+	            	<div class="tencol last">
+	            		<h4>Surya Mylavarapu - Product Technology Manager, Dow Jones & Company</h4>
+	                    <p>Developing and delivering high performance web application for online Content aggregator and Research tool, Factiva.com using Microsoft ASP.Net MVC.
+	                    Design, architect and develop web applications that are scalable, responsive. Mentor and provide architectural guidance to the web development team stressing on reuse and using standard design patterns ad leveraging the technologies like SignalR, Long polling, and AJAX</p>
+	            	</div>
+            	</div> 
+
+            	<div class="row">
+	            	<Div class="twocol">
+                    	<img src="./static/img/infojudge.jpg" width="150">
+	            	</Div>
+	            	<div class="tencol last">
+	            		<h4>Scott Morris - HealthNow Process Assurance Manager, InfoTech Niagara</h4>
+	                    <p>A technology and business visionary with 15 years leading the design, development and implementation technology and security solutions. Strong record of success in applying technology to business problems and improving efficiency. Proven ability to solve business issues through the delivery of applications, infrastructure, and process while mitigating costs and risks. Focuses on metric driven approach to deliver on business objectives. Provides strategic direction to senior leadership. A dynamic career with strong leadership, relationship building, problem-solving, planning, team-building and program/project management skills. </p>
+	            	</div>
+            	</div> 
+
+            	<div class="row">
+	            	<Div class="twocol">
+                    	<img src="./static/img/bloomjudge.jpg" width="150">
+	            	</Div>
+	            	<div class="tencol last">
+	            		<h4>John Kirchgraber - Financial Application Engineer, Bloomberg LP</h4>
+	                    <p>
+Applications developer providing business intelligence and data warehousing solutions for Bloomberg's Asset and Investment Manager (AIM) product. Secret lover of Erlang, Fortran. Not-so-secret fan of Joyce, Eliot, Rilke. Voted 'Least Likely to Drop a Table in Production While Logged in as Schema Owner,' SUNY Buffalo, CSE Graduating Class of 2011.</p>
+	            	</div>
+            	</div> 
+
+
+
+
+
+
+
+            	
+ 
+            
+            	
+			</div>
+		</div>
+	</div>
+
+
+<div class="footer">
+    <div class="container">
+        <!-- Insert a row above this to have a Thanks to our Platinum Sponsor: --> 
+        <div class="row">
+        	<div class="twelvecol"></div>
+        </div>
+		<div class="row">
+			
+			<div class="sevencol">
+				
+			
+			</div>
+			<div class="fourcol last m-hide">
+				<p class="head" style="text-align:right; margin-top:40px;">Thanks to our lead sponsor:</p>
+				<br>
+				<a href="http://www.synacor.com"><img src="./static/img/synacor.png" width="250"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="copyright">UB Hacking Copyright &copy; 2013 powered by Hackman</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+<!-- LOAD ME SOME JAVASCRIPTS -->
+   
+
+
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=315195628589675";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39031486-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body>
+</html>

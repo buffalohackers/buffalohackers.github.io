@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>UB Hacking - University at Buffalo Collegiate Hackathon</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+	<link rel="stylesheet" href="./static/css/font-awesome.css" type="text/css" media="screen" />
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="./static/css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="./static/css/styles.css" type="text/css" media="screen" />
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="./static/js/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./static/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./static/js/base.js"></script>
+
+	<script src="./static/js/lazyload.js" type="text/javascript"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv7e3U86V4kQ_cL8Ao7BzriEtBIbauRMI&sensor=false ">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+      	var davishall = new google.maps.LatLng(43.003156, -78.787313);
+      	var center = new google.maps.LatLng(43.003611, -78.798795);
+        var mapOptions = {
+          center: center,
+          zoom: 15,
+          disableDefaultUI: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+
+        var ubhacking = new google.maps.Marker({
+        position: davishall,
+      	map: map,
+     
+  		});
+      }
+       
+    </script>
+
+    <link rel="shortcut icon" href="http://24.media.tumblr.com/avatar_d54dc78291e1_16.png" />
+
+</head>
+<body onload="initialize()">
+
+	<!-- div class="m-login">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="#"><i class="icon-signin m-navi-icon"></i> <strong>Login</strong></a></li>
+				<li class="middle"><a href="/register"><i class="icon-tasks m-navi-icon"></i> <strong>Register</strong></a></li>
+				<li class="last"><a href="/contact"><i class="icon-comments m-navi-icon"></i> <strong>Contact</strong></a></li>
+			</ul>
+		</div>
+	</div>
+</div>	 -->
+
+
+
+<div class="header">
+
+
+	
+	<div class="container">
+		<div class="row">			
+			<div class="threecol ">
+				<div class="logo"><a href="./index.html"><img src="./static/img/logo.png"></a>
+					<i class="icon-reorder" id="menu-icon"></i>
+				</div>
+				
+				
+			</div>
+			
+			<div class="ninecol last">
+				<div class="navigation">
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="http://blog.ubhacking.com" target="_blank">Blog</a></li>
+						<li><a href="./prizes.html">Winners</a></li>
+						<li><a href="./sponsors.html">Sponsors</a></li>
+						<li class="down"><a>People</a>
+							<ul class="dropdown">
+								<li><a href="./judges.html">Judges</a></li>
+								<li><a href="https://docs.google.com/spreadsheet/ccc?key=0AlyjNLEvWnoKdG81bUNHNkhEc2toZlBWN25ObFhKOHc&usp=sharing" target="_blank">Mentors</a></li>
+								<li><a href="./about.html#organizers">Organizers</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks" target="_blank">Hacks</a></li>
+						<li><a href="./rules.html">Rules</a></li>
+                        <li><a href="./schedule.html">Schedule</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+						<li><a href="./contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+
+	
+			<div class="threecol last">
+
+				
+
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="m-navigation">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/sponsors">Sponsors</a></li>
+				<li><a href="/judges">Judges</a></li>
+				<li><a href="/mentors">Mentors</a></li>
+				<li><a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks" target="_blank">Hacks</a></li>
+				<li><a href="/rules">Rules</a></li>
+				<li><a href="/schedule">Schedule</a></li>
+				<li><a href="/faq">FAQ</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="masthead content">
+	<div class="container">
+		<div class="row">
+			<div class="headtext">		
+					<div class="biglinks">
+
+							<div class="headtitle content_title" >< 
+								Prizes
+									/></div>			
+					</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="maincontent">
+	<div class="container">
+		<div class="row">
+			<Div class="twelvecol">
+            <h1>Prizes</h1>
+            <ul>
+                <li><p><strong>1st Place (<a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/gamepute" target="_blank">GamePute</a>):</strong> $1,200, 1 year of GitHub Silver Plan for the team, and an opportunity to demo to Z80 Labs Technology Incubator.</p></li>
+                <li><p><strong>2nd Place (<a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/arcampus" target="_blank">ARcampus</a>):</strong> $800, 1 year of GitHub Bronze Plan for the team, and an opportunity to demo to Z80 Labs Technology Incubator.</p></li>
+               	<li><p><strong>3rd Place (<a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/where-you-looking-at" target="_blank">Where You Looking At?</a>):</strong> $400, 6 months of GitHub Bronze Plan for the team, and an opportunity to demo to Z80 Labs Technology Incubator.</p></li>
+               	<bR>
+
+                <li><p><strong>Best Mobile App - Sponsored by Synacor (<a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/fitometer" target="_blank">Fitometer</a>):</strong> 4 $100 Visa gift cards</p></li>
+                <li><p><strong>Audience Choice -  Sponsored by Dow Jones (<a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/helloworld" target="_blank">HelloWorld</a>):</strong> 4 $25 Amazon gift cards</p></li>
+                <li><p><strong>Best Use of the SendGrid API - Sponsored by SendGrid (<a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/fotoexcel" target="_blank">FotoExcel</a>):</strong> SendGrid branded Sphero</p></li>
+                <li><p><strong>Most Technically Challenging - Sponsored by Bloomnberg (<a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/simple-resonance" target="_blank">Simple Resonance</a>):</strong> 4 $75 gift cards</p></li>
+                <li><p><strong>Twilio Hack - Sponsered by Twilio (<a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/edots" target="_blank">eDOTS</a>):</strong> 4 $20 Amazon Gift Cards and Twilio Swag</p></li>
+                <li><p><strong>Really Cool Tech Hack - Sponsored by Iron.io (<a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/acdc" target="_blank">ACDC</a>):</strong> 1 Raspberry Pi Model B</p></li>
+
+				<br>
+                <li><p><strong>Organizer's Award (<a href=https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks/walk-or-bus" target="_blank">Walk or Bus</a>):</strong> A group hug and $20 to Mighty Taco</p></li>
+
+            </ul>
+			</div>
+		</div>
+
+			
+		</div>
+	</div>
+
+
+<div class="footer">
+    <div class="container">
+        <!-- Insert a row above this to have a Thanks to our Platinum Sponsor: --> 
+        <div class="row">
+        	<div class="twelvecol"></div>
+        </div>
+		<div class="row">
+			
+			<div class="sevencol">
+			
+			</div>
+			<div class="fourcol last m-hide">
+				<p class="head" style="text-align:right; margin-top:40px;">Thanks to our lead sponsor:</p>
+				<br>
+				<a href="http://www.synacor.com"><img src="./static/img/synacor.png" width="250"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="copyright">UB Hacking Copyright &copy; 2013 powered by Hackman</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+<!-- LOAD ME SOME JAVASCRIPTS -->
+   
+
+
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=315195628589675";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39031486-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body>
+</html>

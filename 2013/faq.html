@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>UB Hacking - University at Buffalo Collegiate Hackathon</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+	<link rel="stylesheet" href="./static/css/font-awesome.css" type="text/css" media="screen" />
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="./static/css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="./static/css/styles.css" type="text/css" media="screen" />
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="./static/js/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./static/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./static/js/base.js"></script>
+
+	<script src="./static/js/lazyload.js" type="text/javascript"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv7e3U86V4kQ_cL8Ao7BzriEtBIbauRMI&sensor=false ">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+      	var davishall = new google.maps.LatLng(43.003156, -78.787313);
+      	var center = new google.maps.LatLng(43.003611, -78.798795);
+        var mapOptions = {
+          center: center,
+          zoom: 15,
+          disableDefaultUI: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+
+        var ubhacking = new google.maps.Marker({
+        position: davishall,
+      	map: map,
+     
+  		});
+      }
+       
+    </script>
+
+    <link rel="shortcut icon" href="http://24.media.tumblr.com/avatar_d54dc78291e1_16.png" />
+
+</head>
+<body onload="initialize()">
+
+	<!-- div class="m-login">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="#"><i class="icon-signin m-navi-icon"></i> <strong>Login</strong></a></li>
+				<li class="middle"><a href="/register"><i class="icon-tasks m-navi-icon"></i> <strong>Register</strong></a></li>
+				<li class="last"><a href="/contact"><i class="icon-comments m-navi-icon"></i> <strong>Contact</strong></a></li>
+			</ul>
+		</div>
+	</div>
+</div>	 -->
+
+
+
+<div class="header">
+
+
+	
+	<div class="container">
+		<div class="row">			
+			<div class="threecol ">
+				<div class="logo"><a href="./index.html"><img src="./static/img/logo.png"></a>
+					<i class="icon-reorder" id="menu-icon"></i>
+				</div>
+				
+				
+			</div>
+			
+			<div class="ninecol last">
+				<div class="navigation">
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="http://blog.ubhacking.com" target="_blank">Blog</a></li>
+						<li><a href="./prizes.html">Winners</a></li>
+						<li><a href="./sponsors.html">Sponsors</a></li>
+						<li class="down"><a>People</a>
+							<ul class="dropdown">
+								<li><a href="./judges.html">Judges</a></li>
+								<li><a href="https://docs.google.com/spreadsheet/ccc?key=0AlyjNLEvWnoKdG81bUNHNkhEc2toZlBWN25ObFhKOHc&usp=sharing" target="_blank">Mentors</a></li>
+								<li><a href="./about.html#organizers">Organizers</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks" target="_blank">Hacks</a></li>
+						<li><a href="./rules.html">Rules</a></li>
+                        <li><a href="./schedule.html">Schedule</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+						<li><a href="./contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+
+	
+			<div class="threecol last">
+
+				
+
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="m-navigation">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/sponsors">Sponsors</a></li>
+				<li><a href="/judges">Judges</a></li>
+				<li><a href="/mentors">Mentors</a></li>
+				<li><a href="https://www.hackerleague.org/hackathons/ub-hacking-2013/hacks" target="_blank">Hacks</a></li>
+				<li><a href="/rules">Rules</a></li>
+				<li><a href="/schedule">Schedule</a></li>
+				<li><a href="/faq">FAQ</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="masthead content">
+	<div class="container">
+		<div class="row">
+			<div class="headtext">		
+					<div class="biglinks">
+
+							<div class="headtitle content_title" >< 
+								FAQ
+									/></div>			
+					</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="maincontent">
+	<div class="container">
+		<div class="row">
+            <h1>FAQ</h1>
+            	<p> Here are some things you should probably know about us.</p>
+				<h3 class="faq">What is a hackathon?</h3>
+				<p>A hackathon is when people who are excited about programming come together for a weekend and collaborate to build cool things. Entrepreneurs, designers, and developers work in teams to create hacks and apps for web or mobile platforms.<br> 
+					For more information check out <a href="http://en.wikipedia.org/wiki/Hackathon">Wikipedia</a></p>
+
+				<h3 class="faq">Who can take part?</h3>
+				<p>UB Hacking is a student Hackathon. Therefore, if you are a student at a university or even high-school you can join us. We are open to all majors and years, even if you are a freshman. If you've never been to a hackathon, it's a good time to start, as we are all here to learn. Whether you have a team or not, we encourage anyone who is interested to come and hack for the weekend.</p>
+
+				<h3 class="faq">What do I need to bring?</h3>
+				<p>You will of course need to bring your laptop and charger. On top of that, you should probably bring a phone charger. A power strip and a refillable water bottle should be on your list as well. Any hardware you plan to hack with should be brought, and maybe a sweatshirt if you happen to get cold. </p>
+
+				<h3 class="faq">This is 24 hours straight. Can I sleep, and where?</h3>
+				<p>You are free to sleep if you like, and we will have designated sleeping areas. Plan on bringing a sleeping bag to do so.</p>
+
+				<h3 class="faq">What if I don't have l33t coding skills?</h3>
+				<p>You have nothing to worry about. We are all here to have fun and learn something new, so feel free to ask questions. Many of us are more than willing to help out. </p>
+
+				<h3 class="faq">Do I have to stay the whole time?</h3>
+				<p>Not at all! Feel free to sleep elsewhere or do whatever your heart desires. The only thing we are strict about is that all coding is done here.</p>
+
+				<h3 class="faq">I don't have a team, but would like to come. What should I do?</h3>
+				<p>You should come! We will have others like you, or teams looking for more people to join. At the start of the hackathon we have a time set to organize teams. You will definitely find someone to work with. You are also free to work alone!</p>
+
+				<h3 class="faq">What it swag, and how do I get it?</h3>
+				<p>Swag is all sorts of goodies that we give out or our sponsors provide. Anything from t-shirts to wristbands and stickers. It's all sorts of cool stuff you can't get anywhere else. Ever wonder where people get those cool laptop stickers?</p>
+
+				<h3 class="faq">Will there be food?</h3>
+				<p>Without a doubt. We provide everything you could possibly need. The only thing you need to focus on is your coding. We have lunch, dinner, a late night snack, breakfast and then lunch again. Not only that, but we have all kinds of drinks and caffeine beverages. Everything from water to RedBull should be available.</p>
+			</div>
+
+			
+		</div>
+	</div>
+
+
+<div class="footer">
+    <div class="container">
+        <!-- Insert a row above this to have a Thanks to our Platinum Sponsor: --> 
+        <div class="row">
+        	<div class="twelvecol"></div>
+        </div>
+		<div class="row">
+			
+			<div class="sevencol">
+			</div>
+			<div class="fourcol last m-hide">
+				<p class="head" style="text-align:right; margin-top:40px;">Thanks to our lead sponsor:</p>
+				<br>
+				<a href="http://www.synacor.com"><img src="./static/img/synacor.png" width="250"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="copyright">UB Hacking Copyright &copy; 2013 powered by Hackman</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+<!-- LOAD ME SOME JAVASCRIPTS -->
+   
+
+
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=315195628589675";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39031486-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body>
+</html>
