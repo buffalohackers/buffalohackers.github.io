@@ -3,6 +3,11 @@ body {
     color: white;
 }
 
+a {
+    color: #DB4545;
+    text-decoration: none;
+}
+
 p {
     font-size: 1.1em;
 }
