@@ -132,4 +132,11 @@ footer {
 
 .blurb {
     padding-right: 100px;
+    margin-bottom:30px;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #333;
+    padding-right: 120px;
+    margin-left: 10px;
 }
