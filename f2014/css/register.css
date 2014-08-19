@@ -1,0 +1,45 @@
+img{
+	content: "";
+    position: absolute;
+    overflow: hidden;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.75)), url("http://i.imgur.com/ishb4Pc.jpg") no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    height: 100%; width: 100%; /* Using Glen Maddern's trick /via @mente */
+    margin-left: -70px;
+    /* don't forget to use the prefixes you need */
+/*    transform-origin: top right;
+*/}
+
+.regField{
+	visibility: hidden;
+	padding-top: 20px;
+	border-bottom: 1px solid white;
+	width: 15%;
+	color: gray;
+}
+input{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 300;
+	padding: 0 0 10px;
+	width: 100%;
+	display: block;
+	margin: 0;
+	background: inherit;
+	border: 0;
+	outline: 0;
+	-webkit-appearance: none;
+	border-radius: 0;
+	transition: border-bottom ease-out .2s;
+	-webkit-transition: border-bottom ease-out .2s;
+}
+
+.btn-primary{
+	margin-top: 20px;
+	width: 10%;
+}
+
+#content{
+	padding-top: 17%;
+}
