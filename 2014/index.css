@@ -1,0 +1,144 @@
+body {
+    background: #132531;
+    color: white;
+}
+
+a {
+    color: #DB4545;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+#top p {
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-size: 1.3em;
+}
+
+#top .front-button {
+    display: inline-block;
+    margin-bottom: 50px;
+    background-color: #DB4545;
+}
+
+#top {
+    text-align: center;
+}
+
+#top > div {
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: white;
+    /* text-shadow: 2px 2px 2px black; */
+
+    padding: 0 0 25px 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+#top h1, #top h2 {
+    color: #132531;
+    text-shadow: 2px 2px 2px white;
+}
+
+#schedule h1, #schedule h2 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#container .outer {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+#container #top {
+    width: auto;
+}
+
+#container #top {
+    background-color: white;
+    height: 600px;
+    background-image: url('topimage.jpg');
+    background-position: -150px -100px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #132531;
+    text-shadow: 2px 2px 2px white;
+    font-size: 2.5em;
+}
+
+#menu > ul {
+    list-style: none;
+}
+
+#menu li {
+    float: left;
+    padding-right: 50px;
+}
+
+.front-button {
+    font-size: 1.5em;
+    margin-right: 25px;
+}
+
+#FAQ {
+    background-color: #0FB4DD;
+    background-color: #67BCD1;
+    background-color: #478DBF;
+    color: #132531;
+    background-color: white;
+    /* text-shadow: 1px 1px 1px #B4BAD8; */ 
+}
+
+#FAQ p, #FAQ h3 {
+    padding-right: 50px;
+
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #555;
+}
+
+#sponsors {
+    background-color: #fff;
+    color: #132531;
+}
+
+#sponsors h2 {
+    color: #333;
+    /* text-shadow: 2px 2px 2px #B3B3B3; */
+}
+
+footer {
+    background: white;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+#FAQ h2 {
+  color: #333;
+}
+
+.blurb {
+    padding-right: 100px;
+    margin-bottom:30px;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #333;
+    padding-right: 120px;
+    margin-left: 10px;
+}
