@@ -80,6 +80,7 @@ img{
 	margin-top: 1%;
 }
 .afterSignup{
+    visibility: hidden;
     position: absolute;  
     left: 50%;
     top: 50%;
@@ -104,6 +105,15 @@ img{
     -ms-transform: translate(-50%, -70%);
 }
 
+
+@media screen and (max-width: 1000px) {
+  footer {
+    visibility: hidden;
+  }
+  .afterSignup{
+    text-align: justify;
+  }
+}
 
 footer{
     font-size: 150%;
